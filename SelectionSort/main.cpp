@@ -31,7 +31,6 @@ int main() {
     }
     cout << endl;
 
-    delete[] arr;
 
     Student d[4] = {{"D", 90},
                     {"C", 100},
@@ -47,6 +46,9 @@ int main() {
     for (int i = 0; i < 4; i++)
         cout << d[i];
     cout << endl;
+
+    SortTestHelper::testSort("Selection sort", selectionSort, arr, n);
+    delete[] arr;
 
     return 0;
 }
