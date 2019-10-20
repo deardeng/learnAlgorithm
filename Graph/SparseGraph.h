@@ -1,0 +1,8 @@
+//
+// Created by dengxin05 on 2019/10/20.
+//
+
+#ifndef LEARNALGORITHM_DENSEGRAPH_H
+#define LEARNALGORITHM_DENSEGRAPH_H
+
+#endif //LEARNALGORITHM_DENSEGRAPH_H
